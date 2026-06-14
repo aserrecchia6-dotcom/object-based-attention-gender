@@ -22,44 +22,44 @@ CHR = Character (Text)
 02. STRUCTURE OF THE COLUMNS
 ========================================================================
 
- Column   | Type | Examples | Description
-----------+------+----------+-------------------------------------------
- id       | INT  | 16, 20   | Subject Identifier.
-----------+------+----------+-------------------------------------------
- age      | INT  | 46, 47   | Age of the subject in
-          |      |          | months.
-----------+------+----------+-------------------------------------------
- sex      | CHR  | "f", "m" | Gender of the subject:
-          |      |          | - f = feminine
-          |      |          | - m = masculine
-----------+------+----------+-------------------------------------------
- group    | CHR  | "ASD",   | Presence or absence of
-          |      | "TD"     | an autism spectrum
-          |      |          | disorder diagnosis:
-          |      |          | - ASD = Autism Spectrum
-          |      |          |         Disorder
-          |      |          | - TD  = Typically
-          |      |          |         Developing
-----------+------+----------+-------------------------------------------
- Stmulus  | CHR  | "F", "S" | Type of visual stimulus
-          |      |          | presented:
-          |      |          | - F = Face
-          |      |          | - S = Scrambled
-----------+------+----------+-------------------------------------------
- condition| CHR  | "ISO",   | Experimental condition
-          |      | "VAL",   | mode:
-          |      | "IDO"    | - ISO = Invalid Same
-          |      |          |         Object
-          |      |          | - VAL = Valid
-          |      |          | - IDO = Invalid Different
-          |      |          |         Object
-----------+------+----------+-------------------------------------------
- latency  | INT  | 118, 147 | Saccade latency defined
-          |      |          | as the time between the
-          |      |          | onset of the target and
-          |      |          | the first saccade which
-          |      |          | falls within the target
-          |      |          | AOI (Area of Interest).
+ Column               | Type | Examples | Description
+----------------------+------+----------+-------------------------------
+ id                   | INT  | 16, 20   | Subject Identifier.
+----------------------+------+----------+-------------------------------
+ age                  | INT  | 46, 47   | Age of the subject in
+                      |      |          | months.
+----------------------+------+----------+-------------------------------
+ sex                  | CHR  | "f", "m" | Gender of the subject:
+                      |      |          | - f = feminine
+                      |      |          | - m = masculine
+----------------------+------+----------+-------------------------------
+ group                | CHR  | "ASD",   | Presence or absence of
+                      |      | "TD"     | an autism spectrum
+                      |      |          | disorder diagnosis:
+                      |      |          | - ASD = Autism Spectrum
+                      |      |          |         Disorder
+                      |      |          | - TD  = Typically
+                      |      |          |         Developing
+----------------------+------+----------+-------------------------------
+ Stmulus              | CHR  | "F", "S" | Type of visual stimulus
+                      |      |          | presented:
+                      |      |          | - F = Face
+                      |      |          | - S = Scrambled
+----------------------+------+----------+-------------------------------
+ condition            | CHR  | "ISO",   | Experimental condition
+                      |      | "VAL",   | mode:
+                      |      | "IDO"    | - ISO = Invalid Same
+                      |      |          |         Object
+                      |      |          | - VAL = Valid
+                      |      |          | - IDO = Invalid Different
+                      |      |          |         Object
+----------------------+------+----------+-------------------------------
+ Target.Detection.Time| INT  | 118, 147 | Saccade latency defined
+                      |      |          | as the time between the
+                      |      |          | onset of the target and
+                      |      |          | the first saccade which
+                      |      |          | falls within the target
+                      |      |          | AOI (Area of Interest).
 
 ========================================================================
 RAW ROW EXAMPLE
